@@ -30,8 +30,10 @@ textarea {
   border-radius: 15px;
 }
 
-.time-block, .textarea, .description, .row {
-  display: inline-block;
+.container {
+  display: flex;
+  width: 100%;
+
 }
 
 .row {
@@ -61,7 +63,7 @@ textarea {
   color: white;
 }
 
-.saveBtn {
+#saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
