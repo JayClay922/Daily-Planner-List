@@ -1,2 +1,2 @@
 let today = moment();
-$(".jumbotron").text(today.format("D MM YYYY"));
+currentDate = $("#currentDay").text(today.format("dddd, MMMM Do"));
