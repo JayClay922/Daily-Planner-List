@@ -16,6 +16,7 @@ $(".saveBtn").on("click", function(){
     .attr("id")
 
     localStorage.setItem(time, value);
+    
 // creating this function to pop up message and then fadeout after set time
     $(document).ready(function(){
         $("#popUpText").show();

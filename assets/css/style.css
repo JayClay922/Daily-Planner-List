@@ -29,6 +29,7 @@ textarea {
 .time-block {
   text-align: center;
   border-radius: 15px;
+  font-weight: bold;
 }
 
 .container {
@@ -81,4 +82,17 @@ textarea {
 
 .hidden {
   display: none;
+}
+
+#popUpText {
+  background-color: black;
+  color: white;
+  width: 20%;
+  margin-left: 730px;
+  border: 30px;
+  padding: 10px;
+}
+
+.localStorage {
+  color: red;
 }
