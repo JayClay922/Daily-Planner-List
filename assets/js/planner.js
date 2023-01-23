@@ -15,9 +15,12 @@ $(".saveBtn").on("click", function(){
     .parent()
     .attr("id")
 
-    localStorage.setItem(time, value)
+    localStorage.setItem(time, value);
 
-    
+    $popUpText.show()
+    $popUpText.fadeout(5000, function (){
+
+    });
 });
 
 // Getting the values from local storage, and displaying them in their respective timeslots in the DOM"
