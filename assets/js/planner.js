@@ -3,6 +3,8 @@ let today = moment();
 currentDate = $("#currentDay").text(today.format("dddd, MMMM Do"));
 $(".jumbotron").css("text-align", "center");
 
+let $popUpText = $('#popUpText');
+
 // Adding event listener on the save button so that when it is clicked the values are saved on the page.
 $(".saveBtn").on("click", function(){
     let value = $(this)
@@ -14,6 +16,8 @@ $(".saveBtn").on("click", function(){
     .attr("id")
 
     localStorage.setItem(time, value)
+
+    
 });
 
 // Getting the values from local storage, and displaying them in their respective timeslots in the DOM"
