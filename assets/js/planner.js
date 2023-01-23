@@ -15,3 +15,13 @@ $(".saveBtn").on("click", function(){
 
     localStorage.setItem(time, value)
 });
+
+$('#0900 .description').val(localStorage.getItem('0900'));
+$('#1000 .description').val(localStorage.getItem('1000'));
+$('#1100 .description').val(localStorage.getItem('1100'));
+$('#1200 .description').val(localStorage.getItem('1200'));
+$('#0100 .description').val(localStorage.getItem('0100'));
+$('#0200 .description').val(localStorage.getItem('0200'));
+$('#0300 .description').val(localStorage.getItem('0300'));
+$('#0400 .description').val(localStorage.getItem('0400'));
+$('#0500 .description').val(localStorage.getItem('0500'));
