@@ -16,11 +16,13 @@ $(".saveBtn").on("click", function(){
     .attr("id")
 
     localStorage.setItem(time, value);
-
-    $popUpText.show()
-    $popUpText.fadeout(5000, function (){
-
-    });
+// creating this function to pop up message and then fadeout after set time
+    $(document).ready(function(){
+        $("#popUpText").show();
+        setTimeout(function(){
+          $("#popUpText").fadeOut();
+        }, 2000);
+      });
 });
 
 // Getting the values from local storage, and displaying them in their respective timeslots in the DOM"
